@@ -8,7 +8,7 @@ const path = require('path'); //access module by name
 
 module.exports = {
     entry:'./src/app.js',
-    mode:'development',
+    mode:'production',
     output: {
         path: path.join(__dirname,'public'),
         filename:'bundle.js'
